@@ -49,7 +49,7 @@ class SDBlockClassType(IntEnum):
 
 
 class ControlBlockSubtype(IntEnum):
-    """ Lists the subtypes of telemetry control blocks. """
+    """ Lists the subtypes of telemetry command blocks. """
 
     SIGNAL_REPORT = 0x00
     COMMAND_ACKNOWLEDGEMENT = 0x01
@@ -61,7 +61,7 @@ class ControlBlockSubtype(IntEnum):
 
 
 class CommandBlockSubtype(IntEnum):
-    """ Lists the subtypes of telemetry command blocks. """
+    """ Lists the subtypes of telemetry control blocks. """
 
     RESET_ROCKET_AVIONICS = 0x00
     REQUEST_TELEMETRY_DATA = 0x01
